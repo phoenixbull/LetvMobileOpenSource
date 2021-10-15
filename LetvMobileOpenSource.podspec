@@ -16,27 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LetvMobileOpenSource"
-  spec.version      = "1.0.2"
-  spec.summary      = "A short description of LetvMobileOpenSource."
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.version      = "1.0.3"
+  spec.summary      = "use leshishipin tools frameworks LetvMobileOpenSource."
 
   spec.homepage     = "https://gitee.com/lehai_1/letv-mobile-open-source.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
 
   spec.license      = { :type => "MIT", :file => 'README.md' }
 
@@ -52,10 +36,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "liuzhibin" => "phoenixbull.cn@gmail.com" }
-  # Or just: spec.author    = "liuzhibin"
-  # spec.authors            = { "liuzhibin" => "phoenixbull.cn@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/liuzhibin"
-
+  
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
@@ -89,10 +70,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "LetvMobileOpenSource", "LetvMobileOpenSource/**/*.{h,m}"
-  spec.exclude_files = "LetvMobileOpenSource/Exclude"
+ # spec.exclude_files = "LetvMobileOpenSource/Exclude"
   spec.framework  = "UIKit","Foundation","MobileCoreServices","SystemConfiguration"
 
-  # spec.public_header_files = "LetvMobileOpenSource/**/*.h"
+  spec.public_header_files = "LetvMobileOpenSource/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,8 +85,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "LetvMobileOpenSource/MJRefresh/MJRefresh/MJRefresh.bundle",“LetvMobileOpenSource/SSKeychain/Support/en.lproj/SSKeychain.strings”
-
+  # spec.resources = "LetvMobileOpenSource/MJRefresh/MJRefresh/MJRefresh.bundle"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
