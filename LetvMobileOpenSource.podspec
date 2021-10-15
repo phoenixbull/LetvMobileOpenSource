@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LetvMobileOpenSource"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of LetvMobileOpenSource."
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "LetvMobileOpenSource", "LetvMobileOpenSource/**/*.{h,m}"
   spec.exclude_files = "LetvMobileOpenSource/Exclude"
-  s.framework  = "UIKit","Foundation","MobileCoreServices","SystemConfiguration"
+  spec.framework  = "UIKit","Foundation","MobileCoreServices","SystemConfiguration"
 
   # spec.public_header_files = "LetvMobileOpenSource/**/*.h"
 
@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "LetvMobileOpenSource/MJRefresh/MJRefresh/MJRefresh.bundle",“LetvMobileOpenSource/SSKeychain/Support/en.lproj/SSKeychain.strings”
+  spec.resources = "LetvMobileOpenSource/MJRefresh/MJRefresh/MJRefresh.bundle",“LetvMobileOpenSource/SSKeychain/Support/en.lproj/SSKeychain.strings”
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
